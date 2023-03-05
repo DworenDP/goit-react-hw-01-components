@@ -1,5 +1,9 @@
-import { Statistics } from 'components/Statistics/Statistics';
+import React from 'react';
+
 import { UserProfile } from 'components/UserProfile/User';
+import user from '../UserProfile/User.json';
+
+// import { Statistics } from 'components/Statistics/Statistics';
 // import { UserProfile } from '../UserProfile/User';
 
 export const App = () => {
@@ -18,10 +22,5 @@ export const App = () => {
 
   //   </div>
   // );
-  return (
-    <>
-      <UserProfile />
-      <Statistics />
-    </>
-  );
+  return <UserProfile {...user} />;
 };
