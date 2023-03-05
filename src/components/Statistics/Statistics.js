@@ -2,7 +2,7 @@ import data from './data.json';
 
 export const Statistics = () => {
   return data.map(stats => {
-    // console.log('stats', stats)
+    console.log('stats', stats)
     return (
       <section class="statistics">
         <h2 class="title">Upload stats</h2>
