@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { UserProfile } from 'components/UserProfile/User';
-import user from '../UserProfile/User.json';
+import user from '../UserProfile/user.json';
 
 // import { Statistics } from 'components/Statistics/Statistics';
 // import { UserProfile } from '../UserProfile/User';
